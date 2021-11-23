@@ -1,0 +1,19 @@
+Executing tests from //testfiles:test_hello
+-----------------------------------------------------------------------------
+============================= test session starts =============================
+platform win32 -- Python 3.7.4, pytest-6.2.5, py-1.11.0, pluggy-1.0.0
+rootdir: C:\Users\40010046\AppData\Local\Temp\Bazel.runfiles_d6vg62m7\runfiles\__main__
+collected 0 items / 1 error
+
+=================================== ERRORS ====================================
+________________________ ERROR collecting test session ________________________
+ImportError while importing test module '\\?\C:\Users\40010046\AppData\Local\Temp\Bazel.runfiles_d6vg62m7\runfiles\__main__\testfiles\test_hello.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\..\Programs\Python\Python37\lib\importlib\__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named '__main__.testfiles'; '__main__' is not a package
+=========================== short test summary info ===========================
+ERROR 
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+============================== 1 error in 0.08s ===============================
